@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "K_	LR",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+    "R": { type: "item", code: "game:cattailtops*" },
+		"L": { type: "block", code: "game:log-*-ud" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "clarinet" }
+}
