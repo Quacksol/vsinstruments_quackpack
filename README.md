@@ -29,9 +29,11 @@ When making your mod, make sure you select the following options: ![Additional p
 You'll also need the vsinstruments_base.dll so that your new code knows what an instrument is.
 + Download the vsinstruments_base mod if you haven't already
 + Locate 'vsinstruments_base.dll' within the zipped folder
+
 In your programming IDE, add this dll as a dependency. In Visual Studio, right-click 'Dependencies' within the Solution Explorer,
 Add Project Reference -> Browse, click the dll, Accept.
 You can tell if this worked by importing 'instruments' in you .cs file (at the top of the file, type 'using instruments;')
+
 **One last thing**: Once the dependency is added, one setting needs to be modified. In the Solution Explorer, find
 Dependencies -> Assemblies -> vsinstruments_base -> properties. Set 'Copy Local' to false or No.
 
@@ -56,6 +58,7 @@ Place your model into assets/instruments/shapes/item/"your_instrument".json. And
 Now for some code.
 In your c# you created from the template, well, delete all that. Copy the code in "vsinstruments_quackpack.cs" and slap that
 right in. Rename your namespace if you'd like as well.
+
 First, we need a new InstrumentItem class. Remove all but one of the InterumentItem classes, and rename the remaining class
 as "your_instrument"Item. The name of this class **does not have to match "your_instrument"**, but make it something sensible.
 Rename the instrument variable to "your_instrument", and set the animation to whatever you need it to be. This can be decided later, of course.
@@ -72,6 +75,7 @@ In this folder, place your .ogg files. If you don't have those yet, you can borr
 - Each note needs to be the key 'a'
 - Each file needs to be in the 'ogg' format
 - Each file must be named 'a0.ogg', 'a1.ogg' ... 'a7.ogg'
+
 Test this out in game, see if it plays your sounds!
 
 ## Adding a recipe
