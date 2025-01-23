@@ -1,9 +1,5 @@
 ﻿using instruments;
-using System.Diagnostics.Metrics;
-using Vintagestory.API.Client;
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
-using Vintagestory.API.Server;
 
 namespace instruments_quackpack
 {
@@ -26,149 +22,136 @@ namespace instruments_quackpack
             api.RegisterItemClass("steeldrum", typeof(SteelDrumItem));
             api.RegisterItemClass("trumpet", typeof(TrumpetItem));
             api.RegisterItemClass("violin", typeof(ViolinItem));
-
-            /*
-             * 
-             *             Definitions.GetInstance.AddInstrumentType
-
-                
-                trumpet = 0,
-                sax,
-                dulcimer,
-                accordion,
-                bass,
-                violin,
-                clarinet,
-                flute,
-                bagpipes,
-                steeldrum,
-                acousticguitar,
-                grandpiano,
-                musicbox,
-                harp,
-                mic,
-                drum,
-            */
+        }
+    }
+    public class AcousticGuitarItem : InstrumentItem
+    {
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
+            instrument = "acousticguitar";
+            animation = "holdbothhandslarge";
+            Definitions.GetInstance().AddInstrumentType(instrument, animation);
         }
     }
     public class TrumpetItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "trumpet";
             animation = "holdbothhands";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class ClarinetItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "clarinet";
             animation = "holdbothhands";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class AccordionItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "accordion";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class SaxItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "sax";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class ViolinItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "violin";
             animation = "holdinglanternrighthand";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class DulcimerItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "dulcimer";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class SteelDrumItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "steeldrum";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class GrandPianoItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "grandpiano";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class MusicBoxItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "musicbox";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class HarpItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "harp";
             animation = "holdbothhands";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class MicItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "mic";
             animation = "holdinglanternrighthand";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
     public class DrumItem : InstrumentItem
     {
         public override void OnLoaded(ICoreAPI api)
         {
+            base.OnLoaded(api);
             instrument = "drum";
             animation = "holdbothhandslarge";
             Definitions.GetInstance().AddInstrumentType(instrument, animation);
-            base.OnLoaded(api);
         }
     }
 }
