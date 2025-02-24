@@ -1,0 +1,24 @@
+{
+	"item-accordion": "아코디언",
+	"item-acousticguitar": "어쿠스틱 기타",
+	"item-clarinet": "클라리넷",
+	"item-dulcimer": "덜시머",
+	"item-drum": "드럼 키트",
+	"item-grandpiano": "피아노",
+	"item-harp": "하프",
+	"item-mic": "마이크",
+	"item-musicbox": "오르골",
+	"item-sax": "색소폰",
+	"item-steeldrum": "스틸 드럼",
+	"item-trumpet": "트럼펫",
+	"item-violin": "바이올린",
+	"item-vbow": "바이올린 활",
+	"item-mboxcomb": "오르골 빗",
+
+	"madefrom-title-brass": "주의:",
+	"madefrom-brass": "황동으로 만들어야 합니다",
+	"madefrom-title-steel": "주의:",
+	"madefrom-steel": "강철로 만들어야 합니다",
+
+	"game:tabname-instruments": "악기"
+}

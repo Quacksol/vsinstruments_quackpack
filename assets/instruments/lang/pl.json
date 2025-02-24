@@ -1,0 +1,24 @@
+{
+	"item-accordion": "Akordeon",
+	"item-acousticguitar": "Gitara Akustyczna",
+	"item-clarinet": "Klarnet",
+	"item-dulcimer": "Cymbały",
+	"item-drum": "Perkusja",
+	"item-grandpiano": "Fortepian",
+	"item-harp": "Harfa",
+	"item-mic": "Mikrofon",
+	"item-musicbox": "Pozytywka",
+	"item-sax": "Saksofon",
+	"item-steeldrum": "Bęben Stalowy",
+	"item-trumpet": "Trąbka",
+	"item-violin": "Skrzypce",
+	"item-vbow": "Smyczek Skrzypcowy",
+	"item-mboxcomb": "Grzebień Pozytywki",
+
+	"madefrom-title-brass": "Uwaga:",
+	"madefrom-brass": "Musi być wykonany z mosiądzu",
+	"madefrom-title-steel": "Uwaga:",
+	"madefrom-steel": "Musi być wykonany ze stali",
+
+	"game:tabname-instruments": "Instrumenty"
+}

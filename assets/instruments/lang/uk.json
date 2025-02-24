@@ -1,0 +1,24 @@
+{
+	"item-accordion": "Акордеон",
+	"item-acousticguitar": "Акустична Гітара",
+	"item-clarinet": "Кларнет",
+	"item-dulcimer": "Цимбали",
+	"item-drum": "Ударна Установка",
+	"item-grandpiano": "Фортепіано",
+	"item-harp": "Арфа",
+	"item-mic": "Мікрофон",
+	"item-musicbox": "Музична Шкатулка",
+	"item-sax": "Саксофон",
+	"item-steeldrum": "Сталевий Барабан",
+	"item-trumpet": "Труба",
+	"item-violin": "Скрипка",
+	"item-vbow": "Смичок для Скрипки",
+	"item-mboxcomb": "Гребінь Музичної Шкатулки",
+
+	"madefrom-title-brass": "Примітка:",
+	"madefrom-brass": "Має бути зроблений з латуні",
+	"madefrom-title-steel": "Примітка:",
+	"madefrom-steel": "Має бути зроблений зі сталі",
+
+	"game:tabname-instruments": "Інструменти"
+}

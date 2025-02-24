@@ -1,0 +1,24 @@
+{
+	"item-accordion": "手风琴",
+	"item-acousticguitar": "原声吉他",
+	"item-clarinet": "单簧管",
+	"item-dulcimer": "洋琴",
+	"item-drum": "架子鼓",
+	"item-grandpiano": "钢琴",
+	"item-harp": "竖琴",
+	"item-mic": "麦克风",
+	"item-musicbox": "八音盒",
+	"item-sax": "萨克斯管",
+	"item-steeldrum": "钢鼓",
+	"item-trumpet": "小号",
+	"item-violin": "小提琴",
+	"item-vbow": "小提琴弓",
+	"item-mboxcomb": "八音盒梳片",
+
+	"madefrom-title-brass": "注意:",
+	"madefrom-brass": "必须由黄铜制成",
+	"madefrom-title-steel": "注意:",
+	"madefrom-steel": "必须由钢制成",
+
+	"game:tabname-instruments": "乐器"
+}

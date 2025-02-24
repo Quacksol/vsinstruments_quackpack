@@ -1,0 +1,24 @@
+{
+	"item-accordion": "Fisarmonica",
+	"item-acousticguitar": "Chitarra Acustica",
+	"item-clarinet": "Clarinetto",
+	"item-dulcimer": "Dulcimer",
+	"item-drum": "Batteria",
+	"item-grandpiano": "Pianoforte",
+	"item-harp": "Arpa",
+	"item-mic": "Microfono",
+	"item-musicbox": "Carillon",
+	"item-sax": "Sassofono",
+	"item-steeldrum": "Tamburo di Acciaio",
+	"item-trumpet": "Tromba",
+	"item-violin": "Violino",
+	"item-vbow": "Archetto di Violino",
+	"item-mboxcomb": "Pettine del Carillon",
+
+	"madefrom-title-brass": "Nota:",
+	"madefrom-brass": "Deve essere fatto di ottone",
+	"madefrom-title-steel": "Nota:",
+	"madefrom-steel": "Deve essere fatto di acciaio",
+
+	"game:tabname-instruments": "Strumenti"
+}

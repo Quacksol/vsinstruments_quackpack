@@ -29,9 +29,11 @@ When making your mod, make sure you select the following options: ![Additional p
 You'll also need the vsinstruments_base.dll so that your new code knows what an instrument is.
 + Download the vsinstruments_base mod if you haven't already
 + Locate 'vsinstruments_base.dll' within the zipped folder
+
 In your programming IDE, add this dll as a dependency. In Visual Studio, right-click 'Dependencies' within the Solution Explorer,
 Add Project Reference -> Browse, click the dll, Accept.
 You can tell if this worked by importing 'instruments' in you .cs file (at the top of the file, type 'using instruments;')
+
 **One last thing**: Once the dependency is added, one setting needs to be modified. In the Solution Explorer, find
 Dependencies -> Assemblies -> vsinstruments_base -> properties. Set 'Copy Local' to false or No.
 

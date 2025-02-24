@@ -1,0 +1,24 @@
+{
+	"item-accordion": "アコーディオン",
+	"item-acousticguitar": "アコースティックギター",
+	"item-clarinet": "クラリネット",
+	"item-dulcimer": "ダルシマー",
+	"item-drum": "ドラムセット",
+	"item-grandpiano": "ピアノ",
+	"item-harp": "ハープ",
+	"item-mic": "マイク",
+	"item-musicbox": "オルゴール",
+	"item-sax": "サクソフォン",
+	"item-steeldrum": "スチールドラム",
+	"item-trumpet": "トランペット",
+	"item-violin": "バイオリン",
+	"item-vbow": "バイオリンの弓",
+	"item-mboxcomb": "オルゴールの櫛",
+
+	"madefrom-title-brass": "注意:",
+	"madefrom-brass": "真鍮で作る必要があります",
+	"madefrom-title-steel": "注意:",
+	"madefrom-steel": "鋼で作る必要があります",
+
+	"game:tabname-instruments": "楽器"
+}
