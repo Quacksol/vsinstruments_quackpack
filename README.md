@@ -58,6 +58,7 @@ Place your model into assets/instruments/shapes/item/"your_instrument".json. And
 Now for some code.
 In your c# you created from the template, well, delete all that. Copy the code in "vsinstruments_quackpack.cs" and slap that
 right in. Rename your namespace if you'd like as well.
+
 First, we need a new InstrumentItem class. Remove all but one of the InterumentItem classes, and rename the remaining class
 as "your_instrument"Item. The name of this class **does not have to match "your_instrument"**, but make it something sensible.
 Rename the instrument variable to "your_instrument", and set the animation to whatever you need it to be. This can be decided later, of course.
@@ -74,6 +75,7 @@ In this folder, place your .ogg files. If you don't have those yet, you can borr
 - Each note needs to be the key 'a'
 - Each file needs to be in the 'ogg' format
 - Each file must be named 'a0.ogg', 'a1.ogg' ... 'a7.ogg'
+
 Test this out in game, see if it plays your sounds!
 
 ## Adding a recipe
